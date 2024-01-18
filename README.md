@@ -1,2 +1,2 @@
 # Quick-quize
-Questions about the biography of the Prophet Mohammad ﷺ.
+Questions about the biography of Prophet Mohammad ﷺ.

@@ -1,0 +1,17 @@
+.home2 {
+    background-image: url(/image/1\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-attachment: contain;
+    background-size: 100% 100%;
+    
+}
+
+
+.card2 {
+    box-shadow: 0 0.4rem 1.4rem 0 #008b8b;
+    background-color: rgba(253, 252, 251, 0.911);
+    width: 30rem;
+    padding: 7rem 8rem;
+    height: 70%;
+    border-radius: 20px;
+}

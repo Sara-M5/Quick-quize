@@ -1,0 +1,33 @@
+.home1 {
+    background-image: url(/image/1\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-attachment: contain;
+    background-size: 100% 110%;
+    
+}
+.card1 {
+    box-shadow: 0 0.4rem 1.4rem 0 #008b8b;
+    background-color: rgba(253, 252, 251, 0.87);  
+    opacity: 0.9;
+    width: 36rem;
+    padding: 5rem 3rem;
+    height: 70%;
+    border-radius: 20px;
+}
+
+#highScoresList {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.high-score {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+.high-score:hover {
+    transform: scale(1.025);
+}
+

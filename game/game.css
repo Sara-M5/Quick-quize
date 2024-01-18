@@ -1,0 +1,123 @@
+.choice-container {
+   display: flex;
+   margin-bottom: 0.5rem;
+   width: 100%;
+   font-size: 2.4rem;
+   border: 0.1rem solid rgba(42, 206, 116, 0.5);
+   border-bottom-left-radius: 15px;
+   border-top-right-radius: 15px;
+   background-color: white;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(42, 206, 116, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.choice-prefix {
+  padding: 1.5rem 2.5rem;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 25px;
+  background-color: teal;
+  color: white;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
+
+.correct {
+  background-color: #24c23c;
+}
+
+.incorrect {
+  background-color: #f8061e;
+}
+
+/* Hud */
+
+#hud {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hud-prefix {
+  text-align: center;
+  font-size: 40px;
+}
+
+.hud-main-text {
+  text-align: center;
+  font-size: 40px;
+}
+
+#progressBar {
+  width: 20rem;
+  height: 4rem;
+  border: 0.3rem solid teal;
+  margin-top: 1rem;
+}
+
+#progressBarFull {
+  height: 3.4rem;
+  background-color: teal;
+  width: 0%;
+}
+
+.icon {
+  text-decoration: none;
+  color: teal;
+  margin: 3rem 3rem;
+  padding: 1.5rem 1.5rem;
+  background-color: white;
+  cursor: pointer;
+  width: 8rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.icon:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(11, 168, 168, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+  background-color: teal;
+  color: white;
+  box-shadow: 0.5rem 0.4rem 1.4rem 0.5rem white;
+}
+.exit {
+  float: left; 
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 25px;
+  
+}
+.exit1 {
+  float: right; 
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 25px;
+}
+
+
+.card3 {
+  box-shadow: 0 0.4rem 1.4rem 0 #008b8b;
+  background-color: rgba(253, 252, 251, 0.938);  
+  opacity: 0.9;
+  width: 100%;
+  padding: 1rem 5rem 6rem 5rem;
+  height: 58rem;
+}
+
+/* responsive design */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .card3 {
+    height: 70rem;
+    padding: 2rem;
+    margin: 4rem;
+    width: 93%;
+  }
+}
